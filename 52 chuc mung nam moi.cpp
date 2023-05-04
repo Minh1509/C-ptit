@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+main()
+{
+    
+    int n;
+    cin>>n;
+    cin.ignore();
+set<string> s;
+    for( int i=0; i<n; i++)
+    {
+        string a;
+        getline(cin,a);
+        s.insert(a);
+    }
+    cout<<s.size()<<endl;
+}
